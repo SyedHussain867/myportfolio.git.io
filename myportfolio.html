@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="path/to/fontawesome.min.css" />
+<!--     <a target="_blank" href="https://www.google.co.uk/">
+       <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>  -->
+    </a> 
+    <link
+      rel="stylesheet"
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+  
+  <script src="https://use.fontawesome.com/44c6a45abc.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+ 
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon_io/favicon-16x16.png">
+      <link rel="manifest" href="icons/favicon_io/site.webmanifest">
+
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo4.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <img src="images/cropped-eth4.png" alt="" class="img2">
+
+
+        <div id="header-text">
+
+          <p>BCA student
+           <h1> Hi , I am <span> Hussain </span> <br />from smsg jain college</h1>
+          </p>
+          <h2>Indiranagar bangalore</h2>
+          
+          <h1></h1>
+          
+          
+          
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------about------------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/image1.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              <br>
+              
+              <span>Syed Hussain</span> <br>
+              
+Aspiring for a challenging role in a reputable organization to utilize my technical skills for the growth of the company while fostering my own learning and development.
+            </p>
+            <br>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                skills
+              </p>
+              <p class="tab-links" onclick="opentab('Experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('Education')">Education</p>
+            </div>
+
+            <!-- <ul>
+                <span
+                  ><li>HTML</li>
+                  <li>CSS</li>
+                  <li>JAVA SCRIPT</li></span
+                >
+              </ul>
+            </div> -->
+
+            <!-- <h1>SKILLS</h1> -->
+
+            <!-- <div class="container2" id="talent"> -->
+            <div class="tab-contents active-tab" id="skills">
+              <h2>Html</h2>
+              <div class="progress-bar">
+                <div class="progress-bar-fill" style="width: 40%"></div>
+              </div>
+
+              <br />
+
+              <h2>CSS</h2>
+              <div class="progress-bar">
+                <div class="progress-bar-fill" style="width: 40%"></div>
+              </div>
+
+              <br />
+
+              <h2>Javascript</h2>
+              <div class="progress-bar">
+                <div class="progress-bar-fill" style="width: 20%"></div>
+              </div>
+            </div>
+            <br />
+            <div class="tab-contents" id="Experience">
+              <ul>
+                <span><li>MY EXPERIENCE</li></span>
+                <li>Software Intern, XYZ Solutions, New Delhi, Jan 2021 – May 2021
+                  <br>
+                  Assisted in designing and implementing a database system for the company’s internal use</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="Education">
+              <ul>
+                <span><li>SCHOOL</li></span>
+                <li>Studied in silicon city public school</li>
+                <span><li>PRE UNIVERCITY</li></span>
+                <li>kairalee nikethan composite college</li>
+                <span><li>DEGREE</li></span>
+                <li>SMSG jain college</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br /><br />
+    <br />
+    <!-- -------------portfolio------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work" id="work1">
+            <img src="images/work1.png" />
+            <div class="layer">
+              <h3>Weather App</h3>
+              <p>
+                This app helps to check the weather conditions, from different
+                cities in the World
+              </p>
+              <a href="https://syedhussain867.github.io/project1.git.io/weather.html"><i class="fa fa-external-link"></i></a>
+            </div>
+          </div>
+          <div class="work" id="work2">
+            <img src="images/work2.png" />
+            <div class="layer">
+              <h3>To-Do List</h3>
+              <p>
+                It's a list of tasks you need to complete or things that you
+                want to do
+              </p>
+              <a href="https://syedhussain867.github.io/To-Do-List.git.io/todolist.html"><i class="fa fa-external-link"></i></a>
+            </div>
+          </div>
+          <div class="work" id="work3">
+            <img src="images/work4.png" />
+            <div class="layer">
+              <h3>Tic-Tac-Toe Game</h3>
+              <p>It is a fun game to play during free times</p>
+              <a href="https://syedhussain867.github.io/project2.git.io/tictactoegame.html"><i class="fa fa-external-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- ---------contact---------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="rows">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa fa-paper-plane"></i> hussainrock867@gmail.com</p>
+            <p><i class="fa fa-phone"></i> 7019203281</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/aravind.hussain.5"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/syed-hussain-shaik-685658251?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/syed_hussain_shaik?igsh=YTQwZjQ0NmI0OA=="
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://github.com/SyedHussain867"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="/images/adhar.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email id"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>copyright © Hussain ,<i class="fa fa-heart"></i>Made by Hussain</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabnames) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabnames).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-600px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzOfHzMtcNf7-IHT_6zL1gVU-3SdGzSHoejEJJI5lF1HjepT48nTiURWZP86Cfu0MjxOA/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent succesfully!";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
